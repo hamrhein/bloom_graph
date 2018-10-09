@@ -8,8 +8,9 @@ Jupyter notebook showing bloom graph creation, 15 August 2017
 
 A bloom graph is used to represent clusters of genes, where a cluster is
 represented by a central node whose neighbors are members of the cluster.
-Edge thickness represents log10 cluster confidence in the input matrix.
-Nodes can belong to two or more clusters.
+The central node size is determined by the cluster size. Edge thickness
+represents log10 cluster confidence in the input matrix.  Nodes can belong
+to two or more clusters.
 
 ## Requirements
 
